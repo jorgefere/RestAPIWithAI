@@ -1,0 +1,2 @@
+package com.automation.util;
+public final class TokenManager { private TokenManager(){} public static String getToken(){String t=System.getenv("GOREST_TOKEN"); if(t==null||t.isBlank()) throw new IllegalStateException("GOREST_TOKEN environment variable is not configured"); return t;} }
