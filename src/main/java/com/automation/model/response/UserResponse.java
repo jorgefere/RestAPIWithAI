@@ -1,0 +1,2 @@
+package com.automation.model.response;
+public class UserResponse { private Long id; private String name,email,gender,status; public UserResponse(){} public Long getId(){return id;} public void setId(Long v){id=v;} public String getName(){return name;} public void setName(String v){name=v;} public String getEmail(){return email;} public void setEmail(String v){email=v;} public String getGender(){return gender;} public void setGender(String v){gender=v;} public String getStatus(){return status;} public void setStatus(String v){status=v;} }
