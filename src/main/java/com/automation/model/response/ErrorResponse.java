@@ -1,0 +1,2 @@
+package com.automation.model.response;
+public class ErrorResponse { private String field,message; public ErrorResponse(){} public String getField(){return field;} public void setField(String v){field=v;} public String getMessage(){return message;} public void setMessage(String v){message=v;} }
