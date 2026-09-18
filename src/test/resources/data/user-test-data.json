@@ -1,0 +1,10 @@
+{
+ "createUserPositive":[{"name":"Krishna","gender":"male","emailPrefix":"krishna","status":"active"}],
+ "createUserNegative":[{"name":"Krishna","gender":"invalid","emailPrefix":"krishna-negative","status":"active"}],
+ "getUserPositive":[{"name":"Get User Test","gender":"male","emailPrefix":"get-user","status":"active"}],
+ "getUserNegative":[{"userId":999999999}],
+ "updateUserPositive":[{"name":"Madhav","emailPrefix":"madhav","status":"active"}],
+ "updateUserNegative":[{"name":"Invalid Update","emailPrefix":"invalid-update","status":"invalid"}],
+ "deleteUserPositive":[{"name":"Delete User Test","gender":"male","emailPrefix":"delete-user","status":"active"}],
+ "deleteUserNegative":[{"userId":999999999}]
+}
