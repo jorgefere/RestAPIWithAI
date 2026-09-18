@@ -1,0 +1,2 @@
+package com.automation.model.request;
+public class UpdateUserRequest { private String name,email,status; public UpdateUserRequest(){} public UpdateUserRequest(String name,String email,String status){this.name=name;this.email=email;this.status=status;} public String getName(){return name;} public void setName(String v){name=v;} public String getEmail(){return email;} public void setEmail(String v){email=v;} public String getStatus(){return status;} public void setStatus(String v){status=v;} }
